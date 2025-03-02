@@ -1,85 +1,53 @@
-# MagicVilla
-# ASP.NET Core Web API Project
+# 🏡 MagicVilla - ASP.NET Core Web API
 
-## 📌 Overview
-This project is a **Beginner to Advanced** level implementation of an **ASP.NET Core Web API**, designed to teach the fundamentals of building and consuming RESTful APIs. It covers essential API development concepts, security enhancements, and best practices in API design using **.NET Core 3.1+**.
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
+![Entity Framework](https://img.shields.io/badge/Entity%20Framework-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
 
-By the end of this project, you will have a fully functional API with **authentication, repository patterns, versioning, exception handling, and more**.
+## 📌 Project Overview
 
-## 🚀 Features
-- **Build RESTful APIs** using **ASP.NET Core 3.1+**.
-- **Repository Pattern** for data access with **Entity Framework Core**.
-- **Code-First Migrations** to manage database schema changes.
-- **API Versioning** to support multiple versions of the API.
-- **Exception Handling** using Middleware and Filters.
-- **Security Implementation** with JWT authentication and refresh tokens.
-- **File Upload Support** in API and web projects.
-- **Clean Code Architecture** following best practices.
-- **Dynamic Base Service** for improved modularity.
-- **API Documentation** using Swagger.
-- **HTTP Client Consumption** of APIs in a .NET Web App.
+**MagicVilla** is a **scalable and secure RESTful Web API** built with **ASP.NET Core**, following best practices in API design. It offers **multi-version API support, authentication, file handling, and a modular architecture**. The project is structured using the **Repository Pattern** to ensure maintainability and clean separation of concerns.
 
-## 🛠️ Technologies Used
-- **.NET Core 3.1+**
-- **ASP.NET Core Web API**
-- **Entity Framework Core**
-- **JWT Authentication & Refresh Tokens**
-- **Swagger (API Documentation)**
-- **Repository & Unit of Work Pattern**
-- **MediatR for CQRS (Optional Enhancements)**
-
-## 🏗️ Setup & Installation
-### Prerequisites
-- **.NET SDK 3.1+** installed on your machine.
-- **SQL Server** or any preferred database provider.
-- **Postman** (for API testing) or Swagger UI.
-
-### Steps to Run the Project
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
-   ```
-2. **Install Dependencies**
-   ```bash
-   dotnet restore
-   ```
-3. **Set Up Database** (Run Migrations)
-   ```bash
-   dotnet ef database update
-   ```
-4. **Run the Application**
-   ```bash
-   dotnet run
-   ```
-5. **Access API Documentation**
-   Open your browser and navigate to:
-   ```
-   http://localhost:<port>/swagger
-   ```
-
-## 🔥 API Endpoints
-| Method | Endpoint | Description |
-|--------|---------|-------------|
-| GET | /api/v1/resource | Fetch data |
-| POST | /api/v1/resource | Create new resource |
-| PUT | /api/v1/resource/{id} | Update a resource |
-| DELETE | /api/v1/resource/{id} | Delete a resource |
-| POST | /api/auth/login | Authenticate user |
-| POST | /api/auth/refresh-token | Get a new access token |
-
-## 🛡️ Authentication & Security
-This API implements **JWT-based authentication** along with **refresh tokens** to ensure security. Follow these steps:
-1. **Login to get an access token**.
-2. **Use the token in the Authorization header** for protected routes.
-3. **Refresh the token** when it expires using the `/refresh-token` endpoint.
-
-## 🎯 Contribution
-Feel free to contribute by submitting **pull requests** or opening **issues**. Your contributions help improve the project!
-
-## 📜 License
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+This API is ideal for building real-world **service-oriented applications** and demonstrates robust **security implementations**, including **JWT authentication and refresh tokens**.
 
 ---
-### 🌟 Happy Coding! 🚀
 
+## ✨ Features
+
+- ✅ **Build RESTful APIs** using **ASP.NET Core 3.1+**  
+- ✅ **Repository Pattern** with **Entity Framework Core**  
+- ✅ **Code-First Migrations** for managing database schema  
+- ✅ **API Versioning** for supporting multiple API versions  
+- ✅ **Exception Handling** via Middleware and Filters  
+- ✅ **JWT Authentication & Refresh Tokens** for security  
+- ✅ **File Upload Support** in API and web projects  
+- ✅ **Clean Code Architecture** with modular design  
+- ✅ **Dynamic Base Service** for flexibility  
+- ✅ **Swagger API Documentation** for easy testing  
+- ✅ **Consuming APIs** using HTTP Client in .NET Web Apps  
+
+---
+
+## 🏗️ Tech Stack
+
+| Technology  | Description |
+|-------------|------------|
+| **ASP.NET Core Web API** | Backend framework for the API |
+| **Entity Framework Core** | ORM for database operations |
+| **SQL Server** | Database for storing villa data |
+| **Identity Framework** | Authentication & user management |
+| **JWT & Refresh Tokens** | Secure API authentication |
+| **Swagger** | API documentation |
+| **Repository & Unit of Work Pattern** | For clean architecture |
+| **MediatR (Optional Enhancements)** | Implements CQRS pattern |
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
+
+```sh
+git clone https://github.com/abdallahyoussriU3/MagicVilla.git
+cd MagicVilla
